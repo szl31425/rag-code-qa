@@ -66,8 +66,8 @@ rag-code-qa/
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
 | `DEEPSEEK_API_KEY` | DeepSeek API 密钥 | 必填 |
-| `GENERATION_MODEL` | 生成答案的模型 | `deepseek-chat` |
-| `VALIDATION_MODEL` | 验证答案的模型 | `deepseek-chat` |
+| `GENERATION_MODEL` | 生成答案的模型 | `deepseek-flash` |
+| `VALIDATION_MODEL` | 验证答案的模型 | `deepseek-pro` |
 | `ENABLE_VALIDATION` | 是否启用双模型验证 | `true` |
 | `EMBEDDING_MODEL` | Embedding 模型（中文推荐 BAAI/bge-small-zh-v1.5） | `all-MiniLM-L6-v2` |
 | `VECTOR_BACKEND` | 向量数据库（faiss / chroma） | `faiss` |
