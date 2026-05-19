@@ -1,0 +1,36 @@
+# API keys & secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (generated at runtime)
+data/faiss_index/
+data/chroma_db/
+
+# Uploaded documents
+docs/*.pdf
+docs/*.md
+docs/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+Zone.Identifier
+*:Zone.Identifier
+
+# Models (large files)
+models/
